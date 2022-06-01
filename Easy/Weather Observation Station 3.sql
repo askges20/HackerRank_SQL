@@ -1,0 +1,5 @@
+SELECT DISTINCT CITY
+  FROM STATION
+  WHERE MOD(ID, 2) = 0;
+
+--ORACLE SQL에서 나머지 연산을 할때는 MOD 사용
